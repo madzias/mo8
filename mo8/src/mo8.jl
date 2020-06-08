@@ -1,5 +1,5 @@
 module mo8
 
-greet() = print("Hello World!")
+example_func(x) = x^2
 
 end # module
