@@ -1,6 +1,6 @@
 using mo8, Test
 
-@testset "hillclimb" begin
+@testset "mo8" begin
 	f = x-> x^4 + 3x^3 + x^2 + sin(x)
 	a, b = -10, 10
 	@test abs(mini(f, a, b) + 1.97) <= 0.01
